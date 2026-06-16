@@ -26,20 +26,27 @@ python -m pip install --user streamlit pandas scikit-learn joblib numpy
 ```bash
 python -m pip show streamlit
 ```
-
-## Step 5: Run Application
+## step 5: create a null app.py
+```bash
+type nul > app.py
+```
+## step 6: Access notepad
+```bash
+notepad app.py
+```
+## Step 7: Run Application
 
 ```bash
 python -m streamlit run app.py
 ```
 
-## Step 6: Open Browser
+## Step 8: Open Browser
 
 Visit:
 
 http://localhost:8501
 
-## Step 7: Use the Application
+## Step 9: Use the Application
 
 1. Upload CSV dataset
 2. Select target column
